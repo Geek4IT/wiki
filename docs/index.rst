@@ -1,24 +1,37 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to the Wiki for GSC!
 ==================================================
+`GSC`_
 
-Contents:
+.. _GSC: https://gsc.social/
+
+The main documentation for the site is organized into a couple sections:
+
+* :ref:`about-docs`
+* :ref:`develop-docs`
+* :ref:`faq-docs`
+
+.. _about-docs:
 
 .. toctree::
    :maxdepth: 2
-   :glob:
+   :caption: About Documentation
 
-   *
+   introduction
+   community
 
+.. _develop-docs:
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Development Documentation
 
-Indices and tables
-==================
+   getting_started
+   features
+   api/index
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. _faq-docs:
+.. toctree::
+  :maxdepth: 2
+  :caption: FAQ Documentation
+
+  faq

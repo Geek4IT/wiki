@@ -4,4 +4,4 @@
 
 ## Getting Started
 
-The documentation is currently hosted on https://wiki.gsc.social
+The documentation is currently hosted on http://wiki.gsc.social
